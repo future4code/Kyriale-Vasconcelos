@@ -49,4 +49,46 @@ let idade = Number(prompt("Qual sua idade?"))
 console.log(typeof (nome))
 console.log(typeof (idade))
 // Lembrar de transformar variáveis de texto para número, caso precise
-console.log ("Olá", nome, ", você tem", idade, "anos.")
+console.log ("Olá", nome,", você tem", idade, "anos.")
+
+//2. Escreva um programa que faça 3 perguntas de Sim ou Não, armazenado em uma variável. Por exemplo: "Você está usando uma roupa azul hoje?". Depois, siga os passos:
+/* a) Crie três novas variáveis, contendo as respostas
+
+b) Imprima na tela todas as perguntas seguidas por suas respectivas respostas. Por exemplo:
+
+```
+Você está usando uma roupa azul hoje? - SIM
+``` */
+let pergunta1 = prompt("Responda com sim ou não: Você está de pijama?")
+let pergunta2 = prompt("Responda com sim ou não: Você tem algum gato?")
+let pergunta3 = prompt("Responda com sim ou não: Você tem algum cachorro?")
+
+console.log ("Você está de pijama? -", pergunta1)
+console.log ("Você tem algum gato? -", pergunta2)
+console.log ("Você tem algum cachorro? -", pergunta3)
+
+//3. Mude os valores de "a" e "b" entre si e imprima no console os novos valores
+
+let a = 10
+let b = 25
+
+let c = b
+b = a
+a = c
+
+console.log("O novo valor de a é", a) // O novo valor de a é 25
+console.log("O novo valor de b é", b) // O novo valor de b é 10
+
+// DESAFIOS
+/* Faça um programa que receba dois números do usuário e faça as seguintes operações, imprimindo os resultados no console da seguinte forma:
+1. O primeiro número somado ao segundo número resulta em: x.
+2. O primeiro número multiplicado pelo segundo número resulta em: y. */
+
+let numero1 = Number(prompt("Digite o primeiro número"))
+let numero2 = Number(prompt("Digite o segundo número"))
+
+let x = numero1 + numero2
+let y = numero1 * numero2
+
+console.log("x é igual a", x)
+console.log("y é igual a", y)

@@ -37,6 +37,7 @@
          i.   `Eu gosto de cenoura`
          ii.  `CENOURA é bom pra vista`
          iii. `Cenouras crescem na terra` */
+
 //a) ela coloca todas as palavras em letras minúsculas e verifica se a frase contém "cenoura", retornando "true" ou "false"
 //b) i. true; ii. true; iii false
 
@@ -56,4 +57,3 @@
     ```
     Eu sou [NOME], tenho [IDADE] anos, moro em [ENDEREÇO] e sou [PROFISSÃO].
     ``` */
-    

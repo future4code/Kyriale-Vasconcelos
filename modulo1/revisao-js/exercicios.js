@@ -23,8 +23,11 @@ function retornaArrayOrdenado(array) {
 }
 
 // EXERCÍCIO 04
+//Escreva uma função que receba um array de números e retorne um novo array com apenas os números pares desse array de entrada.
 function retornaNumerosPares(array) {
-  
+    let arrayPar = array.filter(pares => (pares%2) === 0)
+    return arrayPar
+     
 }
 
 // EXERCÍCIO 05

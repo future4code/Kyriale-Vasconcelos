@@ -150,8 +150,10 @@ function retornaChamadaDeFilme(filme) {
 // EXERCÍCIO 12
 //Crie uma função que recebe um objeto com as propriedades `nome`, `idade`, `endereco` e `email`  e retorne um novo objeto com as mesmas propriedades, mas com o valor `"ANÔNIMO"` para a propriedade `nome`.
 function retornaPessoaAnonimizada(pessoa) {
-   return {...pessoa,
-        nome: "ANÔNIMO"}
+   pessoa.nome = "ANÔNIMO"
+   return pessoa
+    /* return {...pessoa,
+        nome: "ANÔNIMO"} */
 }
 
 // EXERCÍCIO 13A

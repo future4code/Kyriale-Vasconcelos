@@ -144,17 +144,14 @@ function retornaSegundoMaiorESegundoMenor(array) {
 //Crie uma função que receba um objeto representando um filme com nome, ano, diretor e elenco. Ela deve retornar uma chamada para assistir a esse filme, seguindo a estrutura do exemplo abaixo:
 function retornaChamadaDeFilme(filme) {
  
- /*   let atores = [];
-   for (i of filme.atores
-    )
-   (` ${filme.atores[i]}`)
- */
    return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores.join(", ")}.`
 }
 
 // EXERCÍCIO 12
+//Crie uma função que recebe um objeto com as propriedades `nome`, `idade`, `endereco` e `email`  e retorne um novo objeto com as mesmas propriedades, mas com o valor `"ANÔNIMO"` para a propriedade `nome`.
 function retornaPessoaAnonimizada(pessoa) {
-   
+   return {...pessoa,
+        nome: "ANÔNIMO"}
 }
 
 // EXERCÍCIO 13A

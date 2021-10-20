@@ -134,7 +134,10 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 // EXERCÍCIO 10
 //Escreva uma função que receba um array de números e retorne um novo array com apenas 2 valores (NESTA ORDEM): o segundo maior e o segundo menor número do array original. 
 function retornaSegundoMaiorESegundoMenor(array) {
+  array.sort(function (a, b) {
+      return b-a})
   
+      return [array[1], array[array.length-2]]
 }
 
 // EXERCÍCIO 11

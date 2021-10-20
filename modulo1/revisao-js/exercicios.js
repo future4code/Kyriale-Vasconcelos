@@ -27,17 +27,37 @@ function retornaArrayOrdenado(array) {
 function retornaNumerosPares(array) {
     let arrayPar = array.filter(pares => (pares%2) === 0)
     return arrayPar
-     
-}
+     }
+
+     /* function retornaNumerosPares(array) {
+        let arrayPares = [];
+        for (numero of array) {
+            if (numero % 2 === 0) arrayPares.push(numero);
+        }
+        return arrayPares;
+    } */
 
 // EXERCÍCIO 05
+//Escreva uma função que recebe um array de números e retorna um array com os números pares elevados a 2.
 function retornaNumerosParesElevadosADois(array) {
- 
+    let arrayParQuadrado = array.filter(paresQuadrado => (paresQuadrado%2) === 0)
+    quadrado = arrayParQuadrado ** 2
+    return quadrado
 }
 
+     /* function retornaNumerosPares(array) {
+        let arrayPares = [];
+        for (numero of array) {
+            if (numero % 2 === 0) arrayPares.push(numero ** 2);
+        }
+        return arrayPares;
+    } */
+
 // EXERCÍCIO 06
+//Escreva uma função que receba um array de números e retorne o maior número dele.
 function retornaMaiorNumero(array) {
-  
+  let maxArr = Math.max(...array)
+    return maxArr
 }
 
 // EXERCÍCIO 07

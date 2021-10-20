@@ -113,15 +113,26 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
     if (ladoA == ladoB
         && ladoB == ladoC)
         return "Equilátero";
-     else if (ladoA !== ladoB
-        && ladoA !== ladoC
-        && ladoB!== ladoC)
-        return "Escaleno";
+     else if (ladoA == ladoB
+        || ladoA == ladoC
+        || ladoB == ladoC)
+        return "Isósceles";
         else
-        return "Isósceles"
+        return "Escaleno"
 }
 
+/* if (ladoA == ladoB
+    && ladoB == ladoC)
+    return "Equilátero";
+ else if (ladoA !== ladoB
+    && ladoA !== ladoC
+    && ladoB!== ladoC)
+    return "Escaleno";
+    else
+    return "Isósceles" */
+
 // EXERCÍCIO 10
+//Escreva uma função que receba um array de números e retorne um novo array com apenas 2 valores (NESTA ORDEM): o segundo maior e o segundo menor número do array original. 
 function retornaSegundoMaiorESegundoMenor(array) {
   
 }

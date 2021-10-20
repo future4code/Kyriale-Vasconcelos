@@ -40,9 +40,13 @@ function retornaNumerosPares(array) {
 // EXERCÍCIO 05
 //Escreva uma função que recebe um array de números e retorna um array com os números pares elevados a 2.
 function retornaNumerosParesElevadosADois(array) {
-    let arrayParQuadrado = array.filter(paresQuadrado => (paresQuadrado%2) === 0)
-    quadrado = arrayParQuadrado ** 2
-    return quadrado
+    let arrayPar = retornaNumerosPares(array);
+    let arrayParQuadrado = []
+    for (x of arrayPar) {
+        x = x ** 2
+        arrayParQuadrado.push(x)
+    }
+    return arrayParQuadrado
 }
 
      /* function retornaNumerosPares(array) {
@@ -104,8 +108,17 @@ function retornaNPrimeirosPares(n) {
 }
 
 // EXERCÍCIO 09
+//Faça uma função que receba como parâmetro os tamanhos dos três lados do triângulo: ladoA, ladoB, ladoC e retorne se ele é equilátero, isósceles ou escaleno (não é necessário validar se os lados fecham um triângulo).
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+    if (ladoA == ladoB
+        && ladoB == ladoC)
+        return "Equilátero";
+     else if (ladoA !== ladoB
+        && ladoA !== ladoC
+        && ladoB!== ladoC)
+        return "Escaleno";
+        else
+        return "Isósceles"
 }
 
 // EXERCÍCIO 10

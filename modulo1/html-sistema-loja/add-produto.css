@@ -27,7 +27,7 @@ h1{
 
 .form {
     color: red;
-}
+    }
 
 #rodape {
     width: 100vw;
@@ -39,4 +39,9 @@ h1{
 width: 100vw;
     height: 3vw;
     background-color: rgb(5, 170, 5);
+}
+
+body {
+    background-image: url(/img/fundo-branco-azul.jpg);
+    background-size:50%
 }

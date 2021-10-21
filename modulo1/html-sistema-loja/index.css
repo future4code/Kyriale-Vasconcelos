@@ -20,3 +20,9 @@ h1{
     background-color: rgb(28, 145, 241);
     border: 2px solid black
 }
+
+#rodape {
+    width: 100vw;
+    height: 10vw;
+    background-color: rgb(5, 170, 5);
+}

@@ -19,6 +19,12 @@ h1{
     border: 2px solid black
 }
 
+.nome-loja {
+    color: rgb(251, 255, 0);
+    font-size: x-large;
+    font-style: italic;
+}
+
 .titulo-funcionarios {
     color: blue;
     background-color: rgb(255, 210, 8);
@@ -29,3 +35,15 @@ li{
     font-style: bold;
     font-size: large;
     }
+
+#rodape {
+        width: 100vw;
+        height: 10vw;
+        background-color: rgb(5, 170, 5);
+    }
+
+#cabecalho {
+    width: 100vw;
+        height: 3vw;
+        background-color: rgb(5, 170, 5);
+}

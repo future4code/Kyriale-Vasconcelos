@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adicionar Produto</title>
+    <link rel="stylesheet" type = "text/css" href="add-produto.css">
 </head>
 <body>
-    <div>
-        <p>Stand do Pokémon VGC Brasil</p>
+    <div id = "cabecalho">
+        <p class = "nome-loja">Stand do Pokémon VGC Brasil</p>
     </div>
     
     <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
+        <a id = "botao-inicio" href="index.html">Página Inicial</a>
+        <a class = "botao" href="ctrl-estoque.html">Controle de Estoque</a>
+        <a class = "botao" href="add-produto.html">Adicionar Produto</a>
+        <a class = "botao" href="funcionarios.html">Funcionários</a>
     </div>
 
     
@@ -28,28 +29,28 @@
         
         <div>
             <label for="descricao">Descrição do produto: </label>
-            <!-- Adicione o id apropriado para o input abaixo -->
-            <input type="text" id="" name="descrição">
+            <!-- Adicione o id apropriado para o input abaixo - OK -->
+            <input type="text" id="descricao" name="descrição">
         </div>
         
         <div>
             <label for="preco">Preço (em R$): </label>
-            <!-- Adicione o id apropriado e o type para receber números abaixo -->
-            <input type="" id="" name="preço">
+            <!-- Adicione o id apropriado e o type para receber números abaixo - OK -->
+            <input type="number" id="preco" name="preço">
         </div>
         
         <div>
-            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-            <label>Quantidade disponível: </label>
-            <input>
+            <!-- Preencha as propriedades necessárias para os elementos abaixo - OK -->
+            <label for = "quantidade">Quantidade disponível: </label>
+            <input type="text" id="quantidade" name="Quantidade disponível">
         </div>
 
         <div class="form-add">
             <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button type="">Adicionar</button>
+            <button class = form type="submit">Adicionar</button>
         </div>
 
     </form>
-
+    <div id = "rodape"></div>
 </body>
 </html>

@@ -1,0 +1,47 @@
+h1{
+    color: rgb(5, 170, 5);
+}
+
+.subtitulo {
+    color: blue;
+    background-color: rgb(255, 255, 10);
+}
+
+#botao-inicio {
+    color: whitesmoke;
+    background-color: rgb(3, 73, 139);
+    border: 2px solid black
+}
+
+.botao {
+    color: whitesmoke;
+    background-color: rgb(28, 145, 241);
+    border: 2px solid black
+}
+
+.nome-loja {
+    color: rgb(251, 255, 0);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.form {
+    color: red;
+    }
+
+#rodape {
+    width: 100vw;
+    height: 10vw;
+    background-color: rgb(5, 170, 5);
+}
+
+#cabecalho {
+width: 100vw;
+    height: 3vw;
+    background-color: rgb(5, 170, 5);
+}
+
+body {
+    background-image: url(/img/fundo-branco-azul.jpg);
+    background-size:50%
+}

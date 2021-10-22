@@ -132,3 +132,13 @@ td button {
 td {
     text-align: center;
 }
+
+.produtos {
+    height: auto;
+    width: auto;
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

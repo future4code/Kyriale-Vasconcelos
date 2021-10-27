@@ -15,12 +15,16 @@ h1{
     font-style: italic;
 }
 
+.icone{
+    width: 40px; 
+    margin-right: 10px; 
+  }
+
 /* Formato do texto do site com plano de fundo */
 body{
     background-color: rgb(205, 252, 236);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
+    }
 
 .home{
     height: 100vh;
@@ -128,66 +132,12 @@ footer{
 
 
 
-.botao {
-    color: whitesmoke;
-    background-color: rgb(28, 145, 241);
-    border: 2px solid black
-}
-
-#rodape {
-    width: 100vw;
-    height: 10vw;
-    background-color: rgb(5, 170, 5);
-}
-
-
-#cabecalho {
-    width: 100vw;
-        height: 3vw;
-        background-color: rgb(5, 170, 5);
-}
-
-.titulo-pagina {
-    color: rgb(2, 2, 119);
-    }
-
-
-.produtos {
-    height: auto;
-    width: auto;
-    max-width: 100px;
-    max-height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-/*  */
-/* Bom dia Timêee! */
-
-
-
-.icone{
-  width: 40px; 
-  margin-right: 10px; 
-}
 
 
 
 
-nav{
-    background-color: #f2d8e0;
 
-    padding: 10px;
-}
-.botao-nav{
-    display: flex;
-    /* border: 3px solid red; */
-    justify-content: space-between;
-    align-items: center;
-}
 
-.imagem-card{
-  width: 100%;
-}
+
+
 

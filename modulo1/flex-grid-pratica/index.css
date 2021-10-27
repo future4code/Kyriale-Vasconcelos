@@ -48,7 +48,7 @@ header, footer{
 main{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    border: 3px solid red;
+    border: 3px solid yellow;
     gap: 20px;
     margin: 20px;
     /* esse width impede que o scroll apareça,
@@ -62,8 +62,14 @@ main{
     font-weight:bolder
 }
 
-
-
+.videos{
+    display: flex;
+    /* border: 3px solid red; */
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgb(0, 92, 0);
+    text-align: center;
+}
 
 
 
@@ -142,11 +148,4 @@ nav{
 .imagem-card{
   width: 100%;
 }
-.card-produto{
-    display: flex;
-    /* border: 3px solid red; */
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 2px 2px 5px black;
-    text-align: center;
-}
+

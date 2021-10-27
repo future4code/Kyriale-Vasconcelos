@@ -11,7 +11,7 @@ header{
     padding: 0 20px;
 }
 
-h2{
+h1{
     font-style: italic;
 }
 
@@ -24,8 +24,6 @@ body{
     background-color: rgb(205, 252, 236);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
 
 /* alinhamento do header e footer */
 header, footer{
@@ -46,19 +44,29 @@ header, footer{
     cursor:pointer;
 }
 
-
-
-
-
-
-
-
-
-
-.subtitulo {
-    color: blue;
-    background-color: rgb(255, 255, 10);
+/* Local dos vídeos */
+main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 3px solid red;
+    gap: 20px;
+    margin: 20px;
+    /* esse width impede que o scroll apareça,
+     limitando o tamanho do main a 80% 
+     do seu container*/
+    width: 80%;
 }
+
+/* Texto dos vídeos */
+.subtitulo {
+    font-weight:bolder
+}
+
+
+
+
+
+
 
 #botao-inicio {
     color: whitesmoke;
@@ -141,16 +149,4 @@ nav{
     justify-content: space-between;
     box-shadow: 2px 2px 5px black;
     text-align: center;
-}
-main{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border: 3px solid red;
-    gap: 20px;
-    margin: 20px;
-    /* esse width impede que o scroll apareça,
-     limitando o tamanho do main a 80% 
-     do seu container*/
-    width: 80%;
-
 }

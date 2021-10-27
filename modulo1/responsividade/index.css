@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Cabeçalho */
+header{
+    display: flex;
+    background-color: rgb(21, 199, 169);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h1{
+    font-style: italic;
+}
+
+.icone{
+    width: 40px; 
+    margin-right: 10px; 
+  }
+
+/* Formato do texto do site com plano de fundo */
+body{
+    background-color: rgb(205, 252, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.home{
+    height: 100vh;
+    grid-template-rows: 60px 1fr 60px;
+    display: grid;
+    justify-content: space-evenly;
+    align-content: space-between;
+    grid-template-columns: 1300px 1fr;
+}
+
+/* alinhamento do header e footer */
+header, footer{
+    grid-column: 1/-1;
+}
+
+.icone-e-texto{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone-busca {
+    height: 15px;
+    width: 15px;
+    float:center;
+    cursor:pointer;
+}
+
+/* Local dos vídeos */
+main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* border: 3px solid yellow; */
+    gap: 20px;
+    margin: 20px;;
+    /* esse width impede que o scroll apareça,
+     limitando o tamanho do main a 80% 
+     do seu container*/
+    width: 90%;
+}
+
+/* Texto dos vídeos */
+.videos{
+    display: flex;
+    /* border: 3px solid red; */
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 2px 2px 5px rgb(0, 92, 0);
+    text-align: center;
+}
+
+.subtitulo {
+    display: flex;
+    font-weight:bolder;
+    text-align: center;
+}
+
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 199, 131);
+    height: 60px;
+    font-weight: bolder;
+}
+
+.creditos{
+    font-size: x-small;
+    margin: 20px;
+}
+
+/* Página dos vídeos */
+
+.titulo-video {
+    display: flex;
+    font-weight: bolder;
+    text-align: center;
+    flex-direction: column;
+}
+
+.video-play{
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    max-height: 800px;
+    
+}
+
+#botao-voltar {
+    display: flex;
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

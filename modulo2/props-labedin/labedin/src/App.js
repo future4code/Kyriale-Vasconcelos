@@ -26,7 +26,94 @@ const HeadingPageSectionContainer = styled.h2 `
   justify-content: center;
   margin-bottom: 20px;
 `
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.page-section-container {
+  width: 40vw;
+  margin: 10px 0;
+}
+
+.page-section-container > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.smallcard-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 200px;
+  padding: 15px 150px;
+  margin: 10px auto;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.smallcard-container > img {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+
+.image-button-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 200px;
+  padding: 15px 30px;
+  margin: 10px auto;
+}
+
+.image-button-container > img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.bigcard-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.bigcard-container > img {
+  width: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.bigcard-container h4 {
+  margin-bottom: 15px;
+}
+
+.bigcard-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+} */
 function App() {
   return (
     <div>

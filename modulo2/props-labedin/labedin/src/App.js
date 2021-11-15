@@ -1,8 +1,10 @@
 import React from 'react';
+import styled from `styled-components`;
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemButton from './components/ImagemButton/ImagemButton';
+
 
 function App() {
   return (

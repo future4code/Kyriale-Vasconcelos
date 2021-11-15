@@ -1,6 +1,6 @@
 import React from 'react';
-// import './CardGrande.css';
-import styled from `styled-components`;
+import './CardGrande.css';
+import styled from 'styled-components';
 
 const BigCardContainer = styled.div`
     display: flex;
@@ -27,13 +27,21 @@ display: flex;
 
 function CardGrande(props) {
     return (
-        <div className="bigcard-container">
+        <BigCardContainer>
+            <ImgBigCardContainer src={ props.imagem } />
+            <DescricaoBigCardContainer>
+                <H4BigCardContainer>{ props.nome }</H4BigCardContainer>
+                <p>{ props.descricao }</p>
+            </DescricaoBigCardContainer>
+        </BigCardContainer>
+
+        /* <div className="bigcard-container">
             <img src={ props.imagem } />
             <div>
                 <h4>{ props.nome }</h4>
                 <p>{ props.descricao }</p>
             </div>
-        </div>
+        </div> */
     )
 }
 

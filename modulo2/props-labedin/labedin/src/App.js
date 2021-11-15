@@ -1,12 +1,12 @@
 import React from 'react';
-import styled from `styled-components`;
+import styled from 'styled-components';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemButton from './components/ImagemButton/ImagemButton';
 
 const GlobalStyle = createGlobalStyle `
-  body {
+  body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle `
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-  }
+}
 `
 const PageSectionContainer = styled.div `
   width: 40vw;
@@ -30,7 +30,7 @@ const HeadingPageSectionContainer = styled.h2 `
 function App() {
   return (
     <div>
-      <GlobalStyle/>
+      <GlobalStyle />
       <PageSectionContainer>
         <HeadingPageSectionContainer>Dados pessoais</HeadingPageSectionContainer>
 

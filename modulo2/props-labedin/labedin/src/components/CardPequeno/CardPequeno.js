@@ -1,5 +1,7 @@
 import React from 'react';
-import './CardPequeno.css'
+//import './CardPequeno.css';
+//import './components/App.css';
+import styled from `styled-components`;
 
 function CardPequeno(props) {
     return (

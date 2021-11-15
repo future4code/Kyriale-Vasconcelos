@@ -5,12 +5,35 @@ import CardGrande from './components/CardGrande/CardGrande';
 import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemButton from './components/ImagemButton/ImagemButton';
 
+const GlobalStyle = createGlobalStyle `
+  body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  }
+`
+const PageSectionContainer = styled.div `
+  width: 40vw;
+  margin: 10px 0;
+`
+
+const HeadingPageSectionContainer = styled.h2 `
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+`
 
 function App() {
   return (
-    <div className="App">
-      <div className="page-section-container">
-        <h2>Dados pessoais</h2>
+    <div>
+      <GlobalStyle/>
+      <PageSectionContainer>
+        <HeadingPageSectionContainer>Dados pessoais</HeadingPageSectionContainer>
+
         <CardGrande 
           imagem="https://scontent.fcgh29-1.fna.fbcdn.net/v/t1.6435-9/68884760_103058294399614_4061692993495629824_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF6HWdgLy2ieuLH82VRE39RGRWWlV1FGKUZFZaVXUUYpZ1Mk2LtXZ_qTR-5XbQAwCf-K46qeKLbCUJDCdOgMedd&_nc_ohc=XCi6ozBA3jQAX8Xx38B&_nc_ht=scontent.fcgh29-1.fna&oh=fa74e3f7f2c0cad0bbf40006e0c1f936&oe=61B70453" 
           nome="Kyriale Cavalcanti" 
@@ -32,10 +55,10 @@ function App() {
         nome="Endereço"
         descricao="Rua dos Bobos, N. 0"
         />
-        </div>
+        </PageSectionContainer>
 
-      <div className="page-section-container">
-        <h2>Experiências profissionais</h2>
+      <PageSectionContainer>
+        <HeadingPageSectionContainer>Experiências profissionais</HeadingPageSectionContainer>
         <CardGrande 
           imagem="https://image.flaticon.com/icons/png/512/1251/1251532.png" 
           nome="Engenharia Química" 
@@ -47,11 +70,11 @@ function App() {
           nome="Pokémon" 
           descricao="Também sou Professora Pokémon licenciada pela Pokámon Company. Posso fazer diversos eventos oficiais que ajudam os jogadores a somarem pontos para o torneio mundial :)" 
         />
-      </div>
+      </PageSectionContainer>
 
 
-      <div className="page-section-container">
-        <h2>Minhas redes sociais</h2>
+      <PageSectionContainer>
+        <HeadingPageSectionContainer>Minhas redes sociais</HeadingPageSectionContainer>
         <ImagemButton 
           imagem="https://d2v9ipibika81v.cloudfront.net/uploads/sites/261/2017/01/facebook-logo-3.png" 
           texto="Facebook" 
@@ -61,7 +84,7 @@ function App() {
           imagem="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1-1.png" 
           texto="Twitter" 
         />        
-      </div>
+      </PageSectionContainer>
     </div>
   );
 }

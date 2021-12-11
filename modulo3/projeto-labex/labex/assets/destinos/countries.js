@@ -1,4 +1,4 @@
-// Nome de todos os países
+// Lista de países
 export const countries = [
     "Afghanistan",
     "Albania",

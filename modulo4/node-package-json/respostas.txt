@@ -1,0 +1,3 @@
+Exercício 1
+a) Como fazemos para acessar os parâmetros passados na linha de comando para o Node?
+R - Usa-se o argumento como "prosess.argv". Isso salva os dados como uma cópia e "traduz" eles para node.

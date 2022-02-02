@@ -8,9 +8,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node ./build/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kyriale Cavalcanti",
   "license": "ISC"
 }

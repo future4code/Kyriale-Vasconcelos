@@ -7,7 +7,7 @@
 //     console.log([cor1, cor2, cor3])
 //  }
 
-function imprimeTresCoresFavoritas():void {
+function imprimeTresCoresFavoritas2():void {
     let cor1:string = process.argv[2]
     let cor2:string = process.argv[3]
     let cor3:string = process.argv[4]
@@ -15,4 +15,4 @@ function imprimeTresCoresFavoritas():void {
     console.log([cor1, cor2, cor3]) 
 }
 
-imprimeTresCoresFavoritas()
+imprimeTresCoresFavoritas2()
